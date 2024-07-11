@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "XXQG"
-version = "0.0.1"
+version = "0.0.2"
 description = "基于nonebot2的学习强国挂机插件，可每日自动学习，29分/天"
 authors = ["TeenStudyFlow <TeenStudyFlow@gmail.com>"]
 license="MIT"
