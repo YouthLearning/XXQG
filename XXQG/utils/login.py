@@ -5,7 +5,7 @@ from io import BytesIO
 
 from httpx import AsyncClient
 
-from src.plugins.XXQG.models.user import User
+from ..models.user import User
 
 
 async def getQrCode():
