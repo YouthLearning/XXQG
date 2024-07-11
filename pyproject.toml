@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "XXQG"
+version = "0.0.1"
+description = "基于nonebot2的学习强国挂机插件，可每日自动学习，29分/天"
+authors = ["TeenStudyFlow <TeenStudyFlow@gmail.com>"]
+license="MIT"
+readme="README.md"
+homepage="https://github.com/YouthLearning/XXQG"
+packages = [
+  { include = "XXQG" },
+]
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx="^0.27.0,<1.0.0"
+nonebot-adapter-onebot="^2.4.4"
+nonebot-plugin-apscheduler="^0.5.0"
+nonebot2="^2.0.0"
+tortoise-orm="^0.19.3"
+playwright="^1.45.0"
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
